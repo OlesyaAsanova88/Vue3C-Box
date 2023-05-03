@@ -1,14 +1,11 @@
-# .
+# Vue3C-Box
+
+<img src="https://cdn.create.vista.com/api/media/medium/296407222/stock-photo-empty-decorative-shopping-cart-bright?token=" alt="box">
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+## Vue composition api, pinia
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
