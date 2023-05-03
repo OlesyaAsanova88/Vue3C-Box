@@ -226,3 +226,98 @@
 
 </template>
 
+
+<style scoped>
+  
+.slide__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120.52%;
+  color: #1F2432;
+}
+.slide__header-grup {
+  margin-top: 96px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .slide__header-grup {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.slide__btn-grup {
+  display: flex;
+  gap: 20px;
+}
+.slide__block-grup {
+  display: flex;
+  gap: 20px;
+}
+.slide__block {
+  padding: 25px;
+  width: 305px;
+  height: 563px;
+  background: #F6F8FA;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.slide__block:last-child {
+  margin-right: 0px;
+}
+.slide__dlock-title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120.52%;
+  color: #1F2432;
+}
+.slide__dlock-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  color: #1F2432;
+}
+.slide__dlock-sum {
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0.005em;
+  color: #1F2432;
+}
+.slide__dlock-currency {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  color: #797B86;
+}
+.slide__dlock-btn {
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px;
+  background: #0069B4;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 145%;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}
+.slide__dlock-btn:hover {
+  background: #01548f;
+}
+
+.swiper-slide {
+  display: flex;
+
+}
+</style>
